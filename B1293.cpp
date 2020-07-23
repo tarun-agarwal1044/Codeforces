@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    double ans=0;
+    for(int i=1;i<=n;i++)
+        ans+=1.0/i;
+    cout<<fixed<<setprecision(12)<<ans;
+    return 0;
+}
